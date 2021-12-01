@@ -88,6 +88,7 @@ button {
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
+  transition: transform 1s;
 }
 
 .space {
@@ -96,7 +97,6 @@ button {
 
 .show {
   color: #000;
-  transition: transform 1s;
   transform: rotate(360deg);
   background-color: #76ce82;
 }
